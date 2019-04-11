@@ -1,0 +1,92 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-family: 'Dokdo', cursive;
+  background-image: url("../images/stars.gif");
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.magic8 {
+  background-color: black;
+  height:20rem;
+  width: 20rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* FANCY STYLEZ
+  ----------------- */
+}
+.window {
+  background-color: #201D6E;
+  height:10rem;
+  width: 10rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* FANCY STYLEZ
+  ----------------- */
+  border: 0.5rem solid #18181A;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,29,75,1) 71%, rgba(0,0,0,1) 100%);
+}
+
+#answer-triangle {
+  background-color: #0000FF;
+  width: 8rem;
+  height: 7rem;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#the-answer {
+  margin-top: 0;
+  color: #DFF8FF;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 2rem;
+}
+
+button {
+  font-family: 'Dokdo', cursive;
+  font-size: 3rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 0.3rem solid purple;
+  color: purple;
+}
+
+button:hover  {
+  background-color: purple;
+  color: yellow;
+  transition: 0.5s;
+  outline-width: 0;
+}
+
+button:active {
+  color: purple;
+  border: 0.3rem solid purple;
+  background-color: white;
+  transition: 0.1s;
+}
+
+#reset {
+  font-size: 1rem;
+}
